@@ -1,0 +1,104 @@
+Add google cdn link- before javascript link
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+jQuery Effects:
+jQuery enables us to add effects on a web page. jQuery effects can be categorized into fading, sliding, hiding/
+showing and animation effects.
+
+jQuery provides many methods for effects on a web page. A complete list of jQuery effect methods are given 
+below:
+
+jQuery hide()
+The jQuery hide() method is used to hide the selected elements.
+Syntax:
+
+$(selector).hide();  
+$(selector).hide(speed, callback);  
+$(selector).hide(speed, easing, callback);  
+speed: It is an optional parameter. It specifies the speed of the delay. Its possible vales are slow, fast 
+and milliseconds.
+easing: It specifies the easing function to be used for transition.
+
+jQuery show()
+The jQuery show() method is used to show the selected elements.
+
+Syntax:
+
+$(selector).show();  
+$(selector).show(speed, callback);  
+$(selector).show(speed, easing, callback);  
+speed: It is an optional parameter. It specifies the speed of the delay. Its possible vales are slow, fast 
+and milliseconds.
+easing: It specifies the easing function to be used for transition.
+callback: It is also an optional parameter. It specifies the function to be called after completion of 
+show() effect.
+
+jQuery toggle()
+The jQuery toggle() is a special type of method which is used to toggle between the hide() and show() method. 
+It shows the hidden elements and hides the shown element.
+
+Syntax:
+$(selector).toggle();  
+$(selector).toggle(speed, callback);  
+$(selector).toggle(speed, easing, callback);  
+$(selector).toggle(display);  
+speed: It is an optional parameter. It specifies the speed of the delay. Its possible vales are slow, fast 
+and milliseconds.
+easing: It specifies the easing function to be used for transition.
+callback: It is also an optional parameter. It specifies the function to be called after completion of 
+toggle() effect.
+display: If true, it displays element. If false, it hides the element.
+
+jQuery fadeIn()
+jQuery fadeIn() method is used to fade in the element.
+
+Syntax:
+$(selector).fadein();  
+$(selector).fadeIn(speed,callback);   
+$(selector).fadeIn(speed, easing, callback);  
+speed: It is an optional parameter. It specifies the speed of the delay. Its possible vales are slow, fast 
+and milliseconds.
+
+easing: It specifies the easing function to be used for transition.
+callback: It is also an optional parameter. It specifies the function to be called after completion of 
+fadein() effect.
+
+jQuery fadeOut()
+The jQuery fadeOut() method is used to fade out the element.
+Syntax:
+
+$(selector).fadeOut();  
+$(selector).fadeOut(speed,callback);   
+$(selector).fadeOut(speed, easing, callback);  
+speed: It is an optional parameter. It specifies the speed of the delay. Its possible vales are slow, fast 
+and milliseconds.
+easing: It specifies the easing function to be used for transition.
+callback: It is also an optional parameter. It specifies the function to be called after completion of 
+fadeOut() effect.
+
+jQuery slideUp()
+jQuery slideUp() method is used to slide up an element.
+Syntax:
+
+$(selector).slideUp(speed);  
+$(selector).slideUp(speed, callback);   
+$(selector).slideUp(speed, easing, callback);  
+speed: It specifies the speed of the delay. Its possible vales are slow, fast and milliseconds.
+easing: It specifies the easing function to be used for transition.
+callback: It is also an optional parameter. It specifies the function to be called after completion of 
+slideUp() effect.
+
+jQuery stop() Method
+The jQuery stop() method is used to stop the jQuery animations or effects currently running on the selected 
+elements before it completes.
+
+The basic syntax of the jQuery stop() method can be given with:
+
+$(selector).stop(stopAll, goToEnd);
+The parameters in the above syntax have the following meanings:
+
+The optional stopAll Boolean parameter specifies whether to remove queued animation or not. Default value is 
+false, that means only the current animation will be stopped, rest of the animations in the queue will run 
+afterwards.
+The optional goToEnd Boolean parameter specifies whether to complete the current animation immediately. 
+Default value is false.

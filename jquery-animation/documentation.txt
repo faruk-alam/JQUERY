@@ -1,0 +1,10 @@
+jQuery animate() Method
+
+The jQuery animate() method is used to create custom animations. The animate() method is typically used to 
+animate numeric CSS properties, for example, width, height, margin, padding, opacity, top, left, etc. but 
+the non-numeric properties such as color or background-color cannot be animated using the basic jQuery 
+functionality.
+
+Note: Not all CSS properties are animatable. In general, any CSS property that accepts values that are 
+numbers, lengths, percentages, or colors is animatable. However, the color animation is not support by the 
+core jQuery library. To manipulate and animate the color use the jQuery color plugin.

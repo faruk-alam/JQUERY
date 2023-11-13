@@ -1,0 +1,40 @@
+Standard jQuery Syntax
+A jQuery statement typically starts with the dollar sign ($) and ends with a semicolon (;).
+
+In jQuery, the dollar sign ($) is just an alias for jQuery. Let's consider the following example code which 
+demonstrates the most basic statement of the jQuery.
+
+
+<script>
+    $(document).ready(function(){
+        // Some code to be executed...
+        alert("Hello World!");
+    });
+</script>
+
+The above example simply displays an alert message "Hello World!" to the user.
+
+Explanation of code :
+The $(document).ready(handler); — This statement is typically known as ready event. Where the handler is 
+basically a function that is passed to the ready() method to be executed safely as soon as the document is ready 
+to be manipulated i.e. when the DOM hierarchy has been fully constructed.
+The jQuery ready() method is typically used with an anonymous function. So, the above example can also be written in 
+a shorthand notation like this:
+
+<script>
+    $(function(){
+        // Some code to be executed...
+        alert("Hello World!");
+    });
+</script>
+Tip: You can use any syntax you like as both the syntax are equivalent. However, the document ready event is 
+easier to understand when reading the code.
+Further, inside an event handler function you can write the jQuery statements to perform any action following 
+the basic syntax, like: $(selector).action();
+Where, the $(selector) basically selects the HTML elements from the DOM tree so that it can be manipulated 
+and the action() applies some action on the selected elements such as changes the CSS property value, or sets 
+the element's contents, etc.
+
+Basic jquery setup:
+Add google cdn jquery link- before javascript link
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

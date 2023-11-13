@@ -1,0 +1,51 @@
+jQuery is a fast, lightweight, and feature-rich JavaScript library that is based on the principle "write less, 
+do more". It's easy-to-use APIs makes the things like HTML document traversal and manipulation, event handling, 
+adding animation effects to a web page much simpler that works seamlessly across all the major browsers like 
+Chrome, Firefox, Safari, Internet Explorer, etc.
+jQuery also gives you the ability to create an Ajax based application in a quick and simple way. Big companies 
+like Google, Microsoft and IBM are using the jQuery for their applications. So you can easily understand how 
+popular and powerful the jQuery is?
+
+jQuery was originally created by John Resig in early 2006. The jQuery project is currently run and maintained 
+by a distributed group of developers as an open-source project.
+
+What You Can Do with jQuery
+There are lot more things you can do with jQuery.
+
+You can easily select elements to perform manipulation.
+You can easily create effect like show or hide elements, sliding transition, and so on.
+You can easily create complex CSS animation with fewer lines of code.
+You can easily manipulate DOM elements and their attributes.
+You can easily implement Ajax to enable asynchronous data exchange between client and server.
+You can easily traverse all around the DOM tree to locate any element.
+You can easily perform multiple actions on an element with a single line of code.
+You can easily get or set dimensions of the HTML elements.
+
+Advantages of Using jQuery
+If you're not familiar with jQuery, you might be wondering what makes jQuery so special. There are several 
+advantages why one should opt for jQuery:
+
+Save lots of time — You can save lots of time and efforts by using the jQuery inbuilt effects and selectors 
+and concentrate on other development work.
+Simplify common JavaScript tasks — jQuery considerably simplifies the common JavaScript tasks. Now you can 
+easily create feature rich and interactive web pages with fewer lines of codes, a typical example is 
+implementing Ajax to update the content of a page without refreshing it.
+Easy to use — jQuery is very easy to use. Anybody with the basic working knowledge of HTML, CSS and JavaScript 
+can start development with jQuery.
+Compatible with browsers — jQuery is created with modern browsers in mind and it is compatible with all major 
+modern browsers such as Chrome, Firefox, Safari, Internet Explorer, etc.
+Absolutely Free — And the best part is, it is completely free to download and use.
+
+setup jquery:
+Including jQuery from CDN:
+CDNs can offer a performance benefit by reducing the loading time, because they are hosting jQuery on 
+multiple servers spread across the globe and when a user requests the file, it will be served from the 
+server nearest to them.
+
+This also offers an advantage that if the visitor to your webpage has already downloaded a copy of jQuery 
+from the same CDN while visiting other sites, it won't have to be re-downloaded since it is already there 
+in the browser's cache.
+
+Add google cdn link- before javascript link
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
